@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SampleWelcomeApp</string>
+    <string name="title_sample">test</string>
+    <string name="description_sample">This is the description</string>
+</resources>

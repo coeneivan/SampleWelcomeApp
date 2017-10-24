@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon"
+        android:background="@color/colorAccent"
+        android:id="@+id/imgBadge"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="White Day"
+        android:id="@+id/txtTitle"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:id="@+id/txtDescription"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Op een witte dag ben je ontspannen offline, maar wel bereikbaar. \n\nAls het internet je toch ineens nodig heelicht dagje. Wifi is natuurlijk altijd een optie"/>
+</LinearLayout>
